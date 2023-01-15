@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include "Headerfile.h"
+
 int j;
 vector<int> bitStuffing(int N, int arr[])
 {
