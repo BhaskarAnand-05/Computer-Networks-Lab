@@ -78,10 +78,12 @@ BIT:
     int N;
     cin >> N;
     int arr[N];
+    cout<<"\nEnter the Bit stream :\n";
     for (int i = 0; i < N; i++)
         cin >> arr[i];
     vector<int> temp;
     temp = bitStuffing(N, arr);
+    cout<<"\n After Byte Stuffing\n";
     for (int i = 0; i < j; i++)
         cout << temp[i];
     return 0;
