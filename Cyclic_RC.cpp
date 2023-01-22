@@ -17,24 +17,24 @@ string xor1(string a, string b)
     return result;
 }
 
-string mod2div(string divident, string divisor)
+string mod2div(string dividend, string divisor)
 {
 
     int pick = divisor.length();
 
-    string tmp = divident.substr(0, pick);
+    string tmp = dividend.substr(0, pick);
 
-    int n = divident.length();
+    int n = dividend.length();
 
     while (pick < n)
     {
         if (tmp[0] == '1')
 
-            tmp = xor1(divisor, tmp) + divident[pick];
+            tmp = xor1(divisor, tmp) + dividend[pick];
         else
 
             tmp = xor1(std::string(pick, '0'), tmp) +
-                  divident[pick];
+                  dividend[pick];
 
         pick += 1;
     }
