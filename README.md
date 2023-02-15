@@ -42,13 +42,50 @@ For Example:
     3. Similarly for equation, [x2+1], the binary value will be, [101].
     4. There is no value at the “x” position, so the value is [0].
 
-## <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CRC_1.png">
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CRC_1.png">  
 
+---
 ### 3. Implement stop & wait protocol
+Here stop and wait means, whatever the data that sender wants to send, he sends the data to the receiver. After sending the data, he stops and waits until he receives the acknowledgment from the receiver. The stop and wait protocol is a flow control protocol where flow control is one of the services of the data link layer.  
+
+It is a data-link layer protocol which is used for transmitting the data over the noiseless channels. It provides unidirectional data transmission which means that either sending or receiving of data will take place at a time. It provides flow-control mechanism but does not provide any error control mechanism.  
+
+The idea behind the usage of this frame is that when the sender sends the frame then he waits for the acknowledgment before sending the next frame  
+
+<img src="https://static.javatpoint.com/tutorial/computer-network/images/stop-and-wait-protocol.png">  
 
 ---
 
-### 4. Implement Sliding window protocol
+### 4. Implement Sliding window protocol  
+
+
+The sliding window is a technique for sending multiple frames at a time. It controls the data packets between the two devices where reliable and gradual delivery of data frames is needed. It is also used in TCP (Transmission Control Protocol).
+
+In this technique, each frame has sent from the sequence number. The sequence numbers are used to find the missing data in the receiver end. The purpose of the sliding window technique is to avoid duplicate data, so it uses the sequence number.
+Types of Sliding Window Protocol
+
+Sliding window protocol has two types:
+
+    Go-Back-N ARQ
+    Selective Repeat ARQ
+
+<b> Go-Back-N ARQ </b>
+
+Go-Back-N ARQ protocol is also known as Go-Back-N Automatic Repeat Request. It is a data link layer protocol that uses a sliding window method. In this, if any frame is corrupted or lost, all subsequent frames have to be sent again.  
+                        The size of the sender window is N in this protocol. For example, Go-Back-8, the size of the sender window, will be 8. The receiver window size is always 1.
+
+If the receiver receives a corrupted frame, it cancels it. The receiver does not accept a corrupted frame. When the timer expires, the sender sends the correct frame again. The design of the Go-Back-N ARQ protocol is shown below.  
+
+
+<img src="https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol.png">   
+
+<b> Selective Repaet ARQ</b>  
+
+Selective Repeat ARQ is also known as the Selective Repeat Automatic Repeat Request. It is a data link layer protocol that uses a sliding window method. The Go-back-N ARQ protocol works well if it has fewer errors. But if there is a lot of error in the frame, lots of bandwidth loss in sending the frames again. So, we use the Selective Repeat ARQ protocol. In this protocol, the size of the sender window is always equal to the size of the receiver window. The size of the sliding window is always greater than 1.
+
+If the receiver receives a corrupt frame, it does not directly discard it. It sends a negative acknowledgment to the sender. The sender sends that frame again as soon as on the receiving negative acknowledgment. There is no waiting for any time-out to send that frame. The design of the Selective Repeat ARQ protocol is shown below.
+
+<img src = "https://static.javatpoint.com/tutorial/computer-network/images/sliding-window-protocol-3.png">  
 
 ---
 
