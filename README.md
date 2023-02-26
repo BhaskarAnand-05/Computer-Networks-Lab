@@ -90,6 +90,35 @@ If the receiver receives a corrupt frame, it does not directly discard it. It se
 ---
 
 ### 5. Show Net id, Host id and Network class of the address
+IP stands for Internet Protocol and v4 stands for Version Four (IPv4). IPv4 was the primary version brought into action for production within the ARPANET in 1983.
+IP version four addresses are 32-bit integers which will be expressed in decimal notation.
+Example- 192.0.2.126 could be an IPv4 address.
+
+<b>Parts of IPv4</b>
+
+<b>Network part:</b> 
+    The network part indicates the distinctive variety that’s appointed to the network. The
+    network part conjointly identifies the category of the network that’s assigned.
+<b>Host Part: </b>
+    The host part uniquely identifies the machine on your network. This part of the IPv4 address
+    is assigned to every host. 
+    For each host on the network, the network part is the same, however, the host half must
+    vary.
+<b>Subnet number: </b>
+    This is the nonobligatory part of IPv4. Local networks that have massive numbers of hosts
+    are divided into subnets and subnet numbers are appointed to that.  
+
+
+Different types of IP Addresses exist in the Internet Protocol hierarchy and can be utilised efficiently in a variety of settings based on the demands of hosts on a network. In general, the IPv4 Addressing System is divided into five categories of IP Addresses. All five categories are identified by the first octet of an IP address.
+
+The five Types of classes are:
+Class A
+Class B
+Class C
+CLass D
+CLass E
+
+<img src="https://user-images.githubusercontent.com/Screenshot 2023-02-26 at 11-33-49 C program to find class of an IP Address" >
 
 ---
 
