@@ -120,7 +120,7 @@ Class C
 CLass D  
 CLass E  
 
-<img src = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20211030221518%2Fhostandnetid-660x413.png&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fwhat-is-network-id-and-host-id-in-ip-addresses%2F&tbnid=598rP79p4fuTcM&vet=12ahUKEwiX_KKwx7L9AhVZM7cAHcPaBeIQMygAegUIARC_AQ..i&docid=877k2TGPwoXlbM&w=660&h=413&q=Write%20a%20program%20to%20show%20net%20ID%20of%20IPv4%20address.&client=firefox-b-d&ved=2ahUKEwiX_KKwx7L9AhVZM7cAHcPaBeIQMygAegUIARC_AQ ">
+<img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fwhat-is-network-id-and-host-id-in-ip-addresses%2F&psig=AOvVaw2jZPUydqcU8DjO1SZUj5rz&ust=1677479267803000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjGtLLHsv0CFQAAAAAdAAAAABAE">
 
 ---
 
