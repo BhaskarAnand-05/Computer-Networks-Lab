@@ -105,7 +105,7 @@ Example- 192.0.2.126 could be an IPv4 address.
     is assigned to every host. 
     For each host on the network, the network part is the same, however, the host half must
     vary.  
-    
+
 <b>Subnet number: </b>
     This is the nonobligatory part of IPv4. Local networks that have massive numbers of hosts
     are divided into subnets and subnet numbers are appointed to that.  
@@ -120,7 +120,7 @@ Class C
 CLass D  
 CLass E  
 
-<img src = "C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png ">
+<img src = "https://user-images.githubusercontent.com/C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png ">
 
 ---
 
