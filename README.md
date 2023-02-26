@@ -120,7 +120,7 @@ Class C
 CLass D  
 CLass E  
 
-<img src = "https://user-images.githubusercontent.com/C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png ">
+<img src = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20211030221518%2Fhostandnetid-660x413.png&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Fwhat-is-network-id-and-host-id-in-ip-addresses%2F&tbnid=598rP79p4fuTcM&vet=12ahUKEwiX_KKwx7L9AhVZM7cAHcPaBeIQMygAegUIARC_AQ..i&docid=877k2TGPwoXlbM&w=660&h=413&q=Write%20a%20program%20to%20show%20net%20ID%20of%20IPv4%20address.&client=firefox-b-d&ved=2ahUKEwiX_KKwx7L9AhVZM7cAHcPaBeIQMygAegUIARC_AQ ">
 
 ---
 
