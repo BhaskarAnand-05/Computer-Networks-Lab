@@ -111,14 +111,15 @@ Example- 192.0.2.126 could be an IPv4 address.
 
 Different types of IP Addresses exist in the Internet Protocol hierarchy and can be utilised efficiently in a variety of settings based on the demands of hosts on a network. In general, the IPv4 Addressing System is divided into five categories of IP Addresses. All five categories are identified by the first octet of an IP address.
 
-The five Types of classes are:
-Class A
-Class B
-Class C
-CLass D
-CLass E
+The five Types of classes are:  
+Class A  
+Class B  
+Class C  
+CLass D  
+CLass E  
 
 <img src="file:///C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png" >
+<img src="https://user-images.githubusercontent.com/C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png">
 
 ---
 
