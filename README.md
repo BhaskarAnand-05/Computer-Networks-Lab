@@ -118,7 +118,7 @@ Class C
 CLass D  
 CLass E  
 
-![Alt text](C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png "Classes")
+<img src = "C:/Users/bhask_1h/Downloads/Screenshot%202023-02-26%20at%2011-33-49%20C%20program%20to%20find%20class%20of%20an%20IP%20Address.png ">
 
 ---
 
