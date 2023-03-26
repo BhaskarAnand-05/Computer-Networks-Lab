@@ -124,8 +124,34 @@ CLass E
 
 ---
 
-### 6. Implement distance vector routing algorithm.
+### 6. Implement distance vector routing algorithm.  
 
+In distance-vector routing (DVR), each router is required to inform the topology changes to its neighboring routers periodically. Historically it is known as the old ARPNET routing algorithm or Bellman-Ford algorithm.
+
+<b> How the DVR Protocol Works</b>  
+
+&rarr In DVR, each router maintains a routing table. It contains only one entry for each router. It contains two parts − a preferred outgoing line to use for that destination and an estimate of time (delay). Tables are updated by exchanging the information with the neighbor’s nodes.  
+
+&rarr Each router knows the delay in reaching its neighbors (Ex − send echo request).  
+
+&rarr Routers periodically exchange routing tables with each of their neighbors.  
+
+&rarr It compares the delay in its local table with the delay in the neighbor’s table and the cost of reaching that neighbor.  
+
+&rarr If the path via the neighbor has a lower cost, then the router updates its local table to forward packets to the neighbor.    
+
+<b>Let's understand a few key points about the distance vector routing protocol :</b>
+
+Network Information :
+Every node in the network should have information about its neighboring node. Each node in the network is designed to share information with all the nodes in the network.
+
+Routing Pattern :
+In DVR the data shared by the nodes are transmitted only to that node that is linked directly to one or more nodes in the network.
+
+Data sharing
+The nodes share the information with the neighboring node from time to time as there is a change in network topology.  
+
+<img src = "https://media.geeksforgeeks.org/wp-content/uploads/dvp4.jpg">
 ---
 
 ### 7. Implement Link state routing, algorithm.
