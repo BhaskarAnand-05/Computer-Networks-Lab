@@ -130,15 +130,15 @@ In distance-vector routing (DVR), each router is required to inform the topology
 
 <b> How the DVR Protocol Works</b>  
 
-&rarr In DVR, each router maintains a routing table. It contains only one entry for each router. It contains two parts − a preferred outgoing line to use for that destination and an estimate of time (delay). Tables are updated by exchanging the information with the neighbor’s nodes.  
+&rarr; In DVR, each router maintains a routing table. It contains only one entry for each router. It contains two parts − a preferred outgoing line to use for that destination and an estimate of time (delay). Tables are updated by exchanging the information with the neighbor’s nodes.  
 
-&rarr Each router knows the delay in reaching its neighbors (Ex − send echo request).  
+&rarr; Each router knows the delay in reaching its neighbors (Ex − send echo request).  
 
-&rarr Routers periodically exchange routing tables with each of their neighbors.  
+&rarr; Routers periodically exchange routing tables with each of their neighbors.  
 
-&rarr It compares the delay in its local table with the delay in the neighbor’s table and the cost of reaching that neighbor.  
+&rarr; It compares the delay in its local table with the delay in the neighbor’s table and the cost of reaching that neighbor.  
 
-&rarr If the path via the neighbor has a lower cost, then the router updates its local table to forward packets to the neighbor.    
+&rarr; If the path via the neighbor has a lower cost, then the router updates its local table to forward packets to the neighbor.    
 
 <b>Let's understand a few key points about the distance vector routing protocol :</b>
 
