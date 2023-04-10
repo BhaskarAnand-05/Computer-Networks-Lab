@@ -154,4 +154,14 @@ The nodes share the information with the neighboring node from time to time as t
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/dvp4.jpg">
 ---
 
-### 7. Implement Link state routing, algorithm.
+### 7. Implement Link state routing, algorithm.  
+
+The Link State Routing Algorithm is an interior protocol used by every router to share information or knowledge about the rest of the routers on the network. The link state routing algorithm is distributed by which every router computes its routing table. With the knowledge of the network topology, a router can make its routing table. The routing table created by each router is exchanged with the rest of the routers present in the network which helps in faster and more reliable delivery of data. This information exchange only occurs when there is a change in the information. Hence, the link state routing algorithm is effective.  
+  
+The Link State Routing Algorithm is an interior protocol used by every router to share information or knowledge about the rest of the routers on the network. The link state routing algorithm is distributed by which every router computes its routing table.
+
+With the knowledge of the network topology, a router can make its routing table. Now, for developing the routing table, a router uses a shortest path computation algorithm like Dijkstra's algorithm along with the knowledge of the topology. The routing table created by each router is exchanged with the rest of the routers present in the network, which helps in faster and more reliable delivery of data.
+
+A router does not send its entire routing table with the rest of the routers in the inter-network. It only sends the information of its neighbors. A router broadcasts this information and contains information about all of its directly connected routers and the connection cost.  
+
+<img src = "https://scaler.com/topics/images/link-state-routing-algo.webp">
