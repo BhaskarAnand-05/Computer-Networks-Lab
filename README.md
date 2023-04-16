@@ -165,3 +165,18 @@ With the knowledge of the network topology, a router can make its routing table.
 A router does not send its entire routing table with the rest of the routers in the inter-network. It only sends the information of its neighbors. A router broadcasts this information and contains information about all of its directly connected routers and the connection cost.  
 
 <img src = "https://scaler.com/topics/images/link-state-routing-algo.webp">
+
+    
+
+The leaky bucket and token bucket algorithms are two commonly used traffic shaping mechanisms that are used in computer networks to control the rate of traffic flow.
+
+The leaky bucket algorithm works by maintaining a fixed-size bucket that fills up at a fixed rate, and any incoming traffic that exceeds the capacity of the bucket is discarded. The bucket leaks at a constant rate, which allows a constant rate of traffic to flow out of the bucket. This algorithm is used to control the average rate of traffic over a longer period of time.
+
+The token bucket algorithm works by maintaining a bucket that is initially filled with a certain number of tokens. Each token represents a unit of traffic that is allowed to pass through the bucket. As traffic arrives at the bucket, a token is consumed, and if there are no tokens left in the bucket, incoming traffic is discarded. The bucket is replenished at a fixed rate with a certain number of tokens, which ensures that a certain amount of traffic can always be allowed through the bucket. This algorithm is used to control the burst rate of traffic over a shorter period of time.
+
+Both of these algorithms are used to control the rate of traffic flow in computer networks and are used to prevent congestion and ensure fair use of network resources.  
+
+<img src = "https://media.geeksforgeeks.org/wp-content/uploads/leakyTap-1.png">  
+<img src = "https://www.tutorialspoint.com/assets/questions/media/56288/token_bucket1.jpg">   
+
+### 9. Implement Leaky Bucket and Token Bucket algorithm.
