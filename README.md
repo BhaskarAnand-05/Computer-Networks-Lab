@@ -179,4 +179,31 @@ Both of these algorithms are used to control the rate of traffic flow in compute
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/leakyTap-1.png">  
 <img src = "https://www.tutorialspoint.com/assets/questions/media/56288/token_bucket1.jpg">   
 
-### 9. Implement Leaky Bucket and Token Bucket algorithm.
+### 9. Implement Huffman Encoding and Decoding algorithm.  
+
+Huffman coding is a lossless data compression algorithm that uses variable-length code words to represent different symbols in a message. The code words are shorter for frequently occurring symbols and longer for less frequently occurring symbols, resulting in an overall reduction in the number of bits needed to represent the message.
+
+The Huffman coding process has two main steps: encoding and decoding.
+
+Encoding:  
+
+1. Count the frequency of occurrence of each symbol in the message.
+2. Arrange the symbols in ascending order of frequency.
+3. Take the two symbols with the lowest frequency and create a new node with a weight equal to the sum of their frequencies.
+4. Replace the two symbols with the new node in the list and reorder the list.
+5. Repeat steps 3-4 until only one node remains.
+6. Assign a binary code word to each symbol, where a symbol that appears more frequently gets a shorter code word and vice versa.
+7. Replace each symbol in the message with its corresponding code word.
+8. The encoded message is the concatenation of the code words.  
+
+Decoding:
+
+1. Read in the encoded message.
+2. Traverse the Huffman tree, starting from the root node.
+3. For each bit in the encoded message, move left if it's a 0 and right if it's a 1.
+4. When a leaf node is reached, output the corresponding symbol and return to the root node to continue decoding the message.
+5. Continue decoding the message until the end of the encoded message is reached.  
+
+Huffman coding is widely used in data compression applications, such as in image, audio, and video compression.   
+
+<img src = "https://cdn.programiz.com/sites/tutorial2program/files/hf-encoding-4.png"> 
