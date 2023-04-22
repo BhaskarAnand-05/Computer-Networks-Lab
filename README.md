@@ -153,6 +153,7 @@ The nodes share the information with the neighboring node from time to time as t
 
 ## <img src = "https://media.geeksforgeeks.org/wp-content/uploads/dvp4.jpg">
 
+---
 ### 7. Implement Link state routing, algorithm.
 
 The Link State Routing Algorithm is an interior protocol used by every router to share information or knowledge about the rest of the routers on the network. The link state routing algorithm is distributed by which every router computes its routing table. With the knowledge of the network topology, a router can make its routing table. The routing table created by each router is exchanged with the rest of the routers present in the network which helps in faster and more reliable delivery of data. This information exchange only occurs when there is a change in the information. Hence, the link state routing algorithm is effective.
@@ -165,6 +166,7 @@ A router does not send its entire routing table with the rest of the routers in 
 
 <img src = "https://scaler.com/topics/images/link-state-routing-algo.webp">
 
+---
 ### 8. Implement Leaky and Token Bucket algorithm.
 
 The leaky bucket and token bucket algorithms are two commonly used traffic shaping mechanisms that are used in computer networks to control the rate of traffic flow.
@@ -178,6 +180,7 @@ Both of these algorithms are used to control the rate of traffic flow in compute
 <img src = "https://media.geeksforgeeks.org/wp-content/uploads/leakyTap-1.png">  
 <img src = "https://www.tutorialspoint.com/assets/questions/media/56288/token_bucket1.jpg">
 
+---
 ### 9. Implement Huffman Encoding and Decoding algorithm.
 
 Huffman coding is a lossless data compression algorithm that uses variable-length code words to represent different symbols in a message. The code words are shorter for frequently occurring symbols and longer for less frequently occurring symbols, resulting in an overall reduction in the number of bits needed to represent the message.
@@ -207,6 +210,7 @@ Huffman coding is widely used in data compression applications, such as in image
 
 <img src = "https://cdn.programiz.com/sites/tutorial2program/files/hf-encoding-4.png">
 
+---
 ### 10. Implement Encryption and Decryption of Caesar Cipher and RSA.
 
 The Caesar Cipher technique is one of the earliest and simplest methods of encryption technique. It’s simply a type of substitution cipher, i.e., each letter of a given text is replaced by a letter with a fixed number of positions down the alphabet. For example with a shift of 1, A would be replaced by B, B would become C, and so on. The method is apparently named after Julius Caesar, who apparently used it to communicate with his officials.
