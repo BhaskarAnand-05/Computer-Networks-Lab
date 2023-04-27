@@ -66,8 +66,8 @@ int decrypt(int ciphertext, int n, int d) {
 
 int main() {
     // choose two prime numbers p and q
-    int p = 17;
-    int q = 19;
+    int p = 13;
+    int q = 15;
 
     // generate the public and private keys
     int n, e, d;
@@ -78,7 +78,7 @@ int main() {
     cout << "Private key: (" << n << ", " << d << ")" << endl;
 
     // encrypt a message using the public key
-    int message = 123;
+    int message = 5032003;
     int ciphertext = encrypt(message, n, e);
 
     // print the encrypted message

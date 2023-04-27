@@ -37,7 +37,7 @@ string decrypt(string message, int shift) {
 }
 
 int main() {
-    string message = "HELLO WORLD";
+    string message = "Bhaskar Anand";
     int shift = 3;
 
     // encrypt the message
